@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"To Deliver\" ",
+ "creation": "2019-04-29 11:53:23.981418",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Sales Order",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hi {{doc.customer}} your order has been placed successfully.",
+ "method": "",
+ "modified": "2020-06-29 17:39:40.827750",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "Order Placed",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "email_by_document_field": "owner",
+   "email_by_role": "All"
+  }
+ ],
+ "sender": "Erpdevelopement",
+ "sender_email": "erpdevelopement@gmail.com",
+ "subject": "Your order has been placed Successfully!!!",
+ "value_changed": "status"
+}

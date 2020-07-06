@@ -1,0 +1,1 @@
+Hi {{doc.customer}} your order has been placed successfully!!!
